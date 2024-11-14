@@ -1,0 +1,69 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+:root{
+  --red-color: #E3646E;
+  --puple-color: #BB72E9;
+  --blue-color: #3996DB;
+  --green-color: #82BC4F;
+  --yellow-color: #EABD5F;
+
+  --gray-100: #0D0E11;
+  --gray-200: #16181D;
+  --gray-300: #292C34;
+  --gray-400: #878EA1;
+  --gray-500: #C0C4CE;
+  --gray-600: #E2E4E9;
+
+  --font-family-asap: 'Asap', sans-serif;
+  --title-lg-asap: 800 56px/120% var(--font-family-asap);
+  --title-md-asap: 400 24px/120% var(--font-family-asap);
+  --title-sm-asap: 400 16px/120% var(--font-family-asap);
+
+  --font-family-inconsolata: 'Inconsolata', sans-serif;
+  --subtitle: 400 20px/120% var(--font-family-inconsolata);
+
+  --font-family-maven-pro: 'Maven Pro', sans-serif;
+  --text-md-mavenpro: 400 16px/140% var(--font-family-maven-pro);
+  --text-sm-mavenpro: 400 14px/140% var(--font-family-maven-pro);
+
+  
+}
+
+body{
+  display: flex;
+  color: var(--gray-600);
+  background-color: var(--gray-100);
+  font: var(--font-family-asap);
+  
+}
+
+.container{
+  max-width: 1040px;
+  margin: 30px auto;
+}
+
+h1{
+  font: var(--title-lg-asap);
+  color: var(--gray-600);
+}
+h2{
+  font: var(--subtitle);
+  color: var(--gray-500);
+}
+h3{
+  font: var(--title-sm-asap);
+  color: var(--gray-400);
+}
+  
+
+.gap-12{
+  gap: 12px;
+}
+.gap-24{
+  gap: 24px;
+}
