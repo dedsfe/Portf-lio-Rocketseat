@@ -43,6 +43,11 @@ body{
 }
 
 .container{
+  display: flex;
+  flex-direction: column;
+
+
+  
   max-width: 1040px;
   margin: 30px auto;
 }
@@ -59,6 +64,12 @@ h3{
   font: var(--title-sm-asap);
   color: var(--gray-400);
 }
+h4{
+  font: var(--title-md-asap);
+  color: var(--gray-600);
+
+  
+}
   
 
 .gap-12{
@@ -67,3 +78,4 @@ h3{
 .gap-24{
   gap: 24px;
 }
+
