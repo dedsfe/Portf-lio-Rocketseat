@@ -21,8 +21,8 @@
 
   --font-family-asap: 'Asap', sans-serif;
   --title-lg-asap: 800 56px/120% var(--font-family-asap);
-  --title-md-asap: 400 24px/120% var(--font-family-asap);
-  --title-sm-asap: 400 16px/120% var(--font-family-asap);
+  --title-md-asap: 600 24px/120% var(--font-family-asap);
+  --title-sm-asap: 600 16px/120% var(--font-family-asap);
 
   --font-family-inconsolata: 'Inconsolata', sans-serif;
   --subtitle: 400 20px/120% var(--font-family-inconsolata);
@@ -67,10 +67,11 @@ h3{
 h4{
   font: var(--title-md-asap);
   color: var(--gray-600);
-
-  
 }
-  
+p{
+  font: var(--text-sm-mavenpro);
+  color: var(--gray-500);
+}  
 
 .gap-12{
   gap: 12px;
