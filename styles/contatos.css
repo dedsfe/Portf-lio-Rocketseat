@@ -3,6 +3,8 @@
   flex-direction: column;
   gap: 48px;
 
+  margin: 88px 0px 88px 0px;
+
 
   .card-contato{
     display: flex;
