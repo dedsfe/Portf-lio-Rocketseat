@@ -1,0 +1,55 @@
+#contato{
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+
+
+  .card-contato{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    
+    gap: 16px;
+    padding: 20px;
+
+    border-radius: 8px;
+    background-color: var(--gray-300);
+    
+    border: 1px solid var(--gray-300);
+
+    width: 400px;
+    height: 68px;
+
+    :nth-child(1){
+      height: 28px;
+      width: 28px;
+    }
+  }
+  .card-contato:hover{
+    border: 1px solid var(--blue-color);
+    cursor: pointer;
+    transition: 0.3s;
+
+
+
+  }
+
+}
+
+.contato-hug{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  
+  gap: 10px;
+}
+
+.logo-texto{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 12px;
+
+}
